@@ -32,5 +32,7 @@ if (feetTravelled <= 400){
   return (feetTravelled - 400) * 0.02
 } else if (2000 < feetTravelled && feetTravelled < 2500){
   return 25
-} 
+} else if (feetTravelled > 2500){
+  return "cannot travel that far"
+}
 }
