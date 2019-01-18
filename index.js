@@ -22,5 +22,4 @@ function distanceTravelledInFeet(startingBlock, endingBlock){ if (endingBlock < 
   }else {
     return (endingBlock - startingBlock) * feetInBlock
   }
-  
 }
