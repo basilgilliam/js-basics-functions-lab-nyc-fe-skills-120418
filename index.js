@@ -23,3 +23,7 @@ function distanceTravelledInFeet(startingBlock, endingBlock){ if (endingBlock < 
     return (endingBlock - startingBlock) * feetInBlock
   }
 }
+
+function calculatesFarePrice(startingBlock, endingBlock){
+  
+}
