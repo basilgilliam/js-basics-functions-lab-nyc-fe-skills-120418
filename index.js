@@ -25,12 +25,12 @@ function distanceTravelledInFeet(startingBlock, endingBlock){ if (endingBlock < 
 }
 
 function calculatesFarePrice(startingBlock, endingBlock){
-const feetTraveled = distanceTravelledInFeet(startingBlock, endingBlock)
-if (feetTraveled <= 400){
+const feetTravelled = distanceTravelledInFeet(startingBlock, endingBlock)
+if (feetTravelled <= 400){
   return 0
-} else  if (400 < feetTraveled < 2000){
+} else  if (400 < feetTravelled && feetTravelled < 2000){
   return (feetTravelled - 400) * 0.02
-} else if (2000 < feetTraveled < 2500){
+} else if (2000 < feetTravelled && feetTravelled < 2500){
   return 25
 } 
 }
